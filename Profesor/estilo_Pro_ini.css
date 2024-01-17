@@ -1,0 +1,152 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.topbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(to right, #000000, #1b4aff);
+  color: #fff;
+  padding: 10px 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.brand {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+}
+
+.menuItem {
+  text-decoration: none;
+  color: #fff;
+  margin: 0 15px;
+  transition: color 0.3s ease-in-out;
+}
+
+.menuItem:hover {
+  color: #1161ed;
+}
+
+.ctaButton {
+  background-color: #1161ed;
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  outline: none;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.ctaButton:hover {
+  background-color: #6b00b3;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.topbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(to right, #000000, #1161ed);
+  color: #fff;
+  padding: 10px 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.brand {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+}
+
+.menuItem {
+  text-decoration: none;
+  color: #fff;
+  margin: 0 15px;
+  transition: color 0.3s ease-in-out;
+}
+
+.menuItem:hover {
+  color: #e5a5ff;
+}
+
+.ctaButton {
+  background-color: #e5a5ff;
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  outline: none;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.ctaButton:hover {
+  background-color: #6b00b3;
+}
+
+
+/*ESTILO DE INICIO*/
+/*diseño tablas*/
+
+table {
+  width: 800px;
+  font-family: sans-serif;
+  font-weight: 150;
+  border-collapse: collapse;
+  overflow: hidden;
+  box-shadow: 0 0 20px #000000;
+}
+
+th {
+  background-color: #ffffff33;
+  padding: 15px;
+  color: #fff;
+}
+
+td {
+  background-color: #ffffff33;
+  padding: 15px;
+  color: #1a0707e3;
+}
+
+th{
+  text-align: left;
+}
+
+thead th{
+  background-color: #1161ed;;
+}
+
+tbody tr:hover {
+  background-color: #ffffff4d;
+}
+
+tbody td {
+  position: relative;
+}
+
+tbody td:hover:before {
+  content: "";
+  position: absolute;
+  background-color: #ffffff33;
+  left: 0;
+  right: 0;
+  top: -9999px;
+  bottom: -9999px;
+  z-index: -1;
+}

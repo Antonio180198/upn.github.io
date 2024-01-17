@@ -1,0 +1,50 @@
+/*ESTILO DE INICIO*/
+/*diseño tablas*/
+
+table {
+    width: 800px;
+    font-family: sans-serif;
+    font-weight: 150;
+    border-collapse: collapse;
+    overflow: hidden;
+    box-shadow: 0 0 20px #000000;
+  }
+  
+  th {
+    background-color: #ffffff33;
+    padding: 15px;
+    color: #fff;
+  }
+  
+  td {
+    background-color: #ffffff33;
+    padding: 15px;
+    color: #1a0707e3;
+  }
+  
+  th{
+    text-align: left;
+  }
+  
+  thead th{
+    background-color: #1161ed;;
+  }
+  
+  tbody tr:hover {
+    background-color: #ffffff4d;
+  }
+  
+  tbody td {
+    position: relative;
+  }
+  
+  tbody td:hover:before {
+    content: "";
+    position: absolute;
+    background-color: #ffffff33;
+    left: 0;
+    right: 0;
+    top: -9999px;
+    bottom: -9999px;
+    z-index: -1;
+  }
